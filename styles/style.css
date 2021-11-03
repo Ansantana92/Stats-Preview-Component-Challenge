@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #090b1a;
+  padding: 0;
+}
+
+.container {
+  width: 87vw;
+  height: 140vh;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: #1b1938;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.container .img-header {
+  width: 87vw;
+  height: 41vh;
+  background-image: url(../images/image-header-mobile.jpg);
+  background-size: cover;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.container .img-header .overlay {
+  width: 100%;
+  height: 100%;
+  background-color: #aa5cdb;
+  mix-blend-mode: multiply;
+}
+
+.container .box {
+  width: 70vw;
+  margin: auto;
+}
+
+.container .box .title {
+  margin: auto;
+  color: white;
+  font-family: 'Inter',sans-serif;
+  font-weight: 700;
+  font-size: 1.7rem;
+  margin-top: 2.3rem;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  text-align: center;
+  word-spacing: 0.01rem;
+  letter-spacing: 0.03rem;
+  line-height: 1.2em;
+}
+
+.container .box .title-color {
+  color: #aa5cdb;
+  font-size: 1.7rem;
+  font-family: 'Inter',sans-serif;
+  font-weight: 700;
+  word-spacing: 0.01rem;
+}
+
+.container .box .description {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 15px;
+  margin: auto;
+  margin-top: 1.2rem;
+  font-family: 'Inter',sans-serif;
+  font-weight: 400;
+  text-align: center;
+  word-spacing: 0.01rem;
+  line-height: 1.6em;
+  margin-bottom: 2.6rem;
+}
+
+.container .box .numbers {
+  margin: auto;
+}
+
+.container .box .numbers .nw {
+  color: white;
+  font-size: 1.5rem;
+  font-family: 'Inter',sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+.container .box .numbers .lw {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: 'Lexend Deca',sans-serif;
+  font-size: 0.75rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.05rem;
+  margin-top: 0.3rem;
+  margin-bottom: 2rem;
+}
+
+footer {
+  padding: 0.5rem;
+}
+
+footer .attribution {
+  color: white;
+  font-size: 11px;
+  text-align: center;
+}
+
+footer .attribution a {
+  color: #3e52a3;
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 80vw;
+    height: 80vh;
+    margin: auto;
+    margin-top: 50px;
+    border-top-left-radius: 0.5rem;
+  }
+  .container .img-header {
+    float: right;
+    width: 40vw;
+    height: 80vh;
+    border-bottom-right-radius: 0.5rem;
+  }
+  .container .box {
+    display: inline-block;
+    width: 40vw;
+  }
+  .container .box .lilbox {
+    width: 30vw;
+    margin: auto;
+  }
+  .container .box .title1 {
+    width: 30vw;
+    margin: auto;
+  }
+  .container .box .title {
+    font-size: 2.3rem;
+    text-align: left;
+  }
+  .container .box .title .title-color {
+    font-size: 2.3rem;
+  }
+  .container .box .description {
+    width: 25vw;
+    height: 25vh;
+    font-weight: 400;
+    text-align: left;
+    margin: 0;
+    margin-top: 30px;
+  }
+  .container .box .numbers {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .container .box .numbers .n1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-right: 65px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
